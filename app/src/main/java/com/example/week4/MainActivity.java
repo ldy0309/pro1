@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         EditText input =findViewById(R.id.inp);
         String str = input.getText().toString();
         out.setText("Hello ," + str);
+        //heloo
 
     }
 }
