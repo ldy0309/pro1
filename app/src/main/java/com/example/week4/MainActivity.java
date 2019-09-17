@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("main","clicked");
         EditText input =findViewById(R.id.inp);
         String str = input.getText().toString();
-        out.setText("Hello ," + str);
-        //heloo
+        out.setText("Hi ," + str);
 
     }
 }
